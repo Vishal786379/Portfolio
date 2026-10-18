@@ -1,0 +1,587 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Technical portfolio showcasing experience, skills, projects, research, and writing.">
+  <title>Vishal Salvi | Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="90" tabindex="0">
+  <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home"><span class="brand-mark">&lt;/&gt;</span> Vishal Salvi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks"
+        aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+          <li class="nav-item ms-lg-2"><a class="btn btn-sm btn-accent nav-contact" href="#contact">Let's talk <i
+                class="bi bi-arrow-up-right"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div class="hero-grid"></div>
+      <div class="container position-relative">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-7">
+            <div class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES</div>
+            <p class="hero-kicker">Hello, I'm</p>
+            <h1>Vishal Salvi<span class="accent"></span><br><span class="outline-text">Software Engineer</span></h1>
+            <p class="hero-copy">A developer who enjoys turning complex problems into clean, accessible, and thoughtful
+              digital experiences.</p>
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a href="#projects" class="btn btn-accent btn-lg">Explore my work <i
+                  class="bi bi-arrow-up-right ms-1"></i></a>
+              <a href="#contact" class="btn btn-outline-light btn-lg">Get in touch</a>
+            </div>
+            <div class="hero-meta mt-5">
+              <span><i class="bi bi-geo-alt"></i> Navi Mumbai, India</span>
+              <span><i class="bi bi-code-slash"></i> Software Development</span>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="hero-card">
+              <div class="code-window">
+                <div class="window-top"><span></span><span></span><span></span><small>developer.js</small></div>
+                <pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">"Vishal Salvi"</span>,
+  role: <span class="code-green">"Web Developer"</span>,
+  curious: <span class="code-orange">true</span>,
+  skills: [
+    <span class="code-green">"HTML & CSS"</span>,
+    <span class="code-green">"JavaScript"</span>,
+    <span class="code-green">"Bootstrap"</span>
+  ],
+  build() {
+    <span class="code-purple">return</span> <span class="code-green">"Web Application"</span>;
+  }
+};</code></pre>
+              </div>
+              <div class="floating-chip chip-one"><i class="bi bi-lightning-charge-fill"></i> Always learning</div>
+              <div class="floating-chip chip-two"><i class="bi bi-check-circle-fill"></i> Built with purpose</div>
+              <div class="hero-orbit orbit-one"></div>
+              <div class="hero-orbit orbit-two"></div>
+            </div>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+      </div>
+    </section>
+
+    <section id="about" class="section-pad">
+      <div class="container">
+        <div class="section-heading">
+          <!-- <p class="section-label">01 / ABOUT</p> -->
+          <h2>About me</h2>
+        </div>
+        <div class="row gy-4 align-items-start">
+          <div class="col-lg-7">
+            <p class="about-lead">I’m a technology enthusiast focused on building useful products and continuously
+              improving how I design, develop, and solve problems.</p>
+            <p class="muted-copy">I enjoy collaborating with people, learning new tools, and taking ideas from an early
+              sketch to a polished result. This portfolio is a snapshot of my journey—replace this text with your own
+              story, specialities, and career goals.</p>
+            <a class="text-link" href="#contact">Let's work together <i class="bi bi-arrow-up-right"></i></a>
+          </div>
+          <div class="col-lg-5">
+            <div class="about-facts">
+              <div class="fact"><span class="fact-icon"><i class="bi bi-terminal"></i></span>
+                <div><strong>Problem solver</strong><small>Thoughtful, practical solutions</small></div>
+              </div>
+              <div class="fact"><span class="fact-icon"><i class="bi bi-window-stack"></i></span>
+                <div><strong>Web focused</strong><small>Responsive, user-first interfaces</small></div>
+              </div>
+              <div class="fact"><span class="fact-icon"><i class="bi bi-journal-code"></i></span>
+                <div><strong>Always learning</strong><small>Curiosity-driven development</small></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section-pad section-tint">
+      <div class="container">
+        <div class="section-heading">
+          <!-- <p class="section-label">02 / EXPERIENCE</p> -->
+          <h2>Experience</h2>
+          <p class="section-intro">A timeline of roles, contributions, and lessons learned.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-top">
+              <div>
+                <h3>Software Engineer</h3>
+                <p class="timeline-org">Citiustech · Mindspace, Airoli</p>
+              </div><span class="date-pill">2023 — PRESENT</span>
+            </div>
+            <p class="muted-copy">Developed and maintained RESTful APIs with Spring Boot, enhancing microservices
+              communication and system performance, and migrated a monolithic app to a microservices architecture,
+              boosting scalability by 50%.</p>
+            <p class="muted-copy">Designed intuitive user interfaces for a healthcare app, improving user experience
+              through wireframing, prototyping, and UI/UX principles, while collaborating on front-end development with
+              Angular.</p>
+            <p class="muted-copy">Created and executed unit and integration tests using JUnit and Mockito, achieving 95%
+              code coverage and improving defect detection efficiency.</p>
+            <p class="muted-copy">Orchestrated API integration that connected 10+ internal services, leading to a 50%
+              improvement in data retrieval speeds and facilitating seamless interactions between front-end and backend
+              systems for enhanced functionality.</p>
+            <div class="tag-row"><span>Java</span><span>Spring
+                Boot</span><span>Angular</span><span>HTML5</span><span>CSS3</span><span>Javascript</span><span>Bootstrap</span><span>JDBC</span><span>JSP</span>
+            </div>
+          </article>
+          <!-- <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-top">
+              <div>
+                <h3>Intern / Junior Developer</h3>
+                <p class="timeline-org">Previous Company · City</p>
+              </div><span class="date-pill">2022 — 2023</span>
+            </div>
+            <p class="muted-copy">Add a previous role, internship, or relevant freelance experience. Highlight what you
+              built, improved, or learned.</p>
+            <div class="tag-row"><span>HTML5</span><span>CSS3</span><span>Git</span></div>
+          </article> -->
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section-pad">
+      <div class="container">
+        <div class="section-heading">
+          <!-- <p class="section-label">03 / EDUCATION</p> -->
+          <h2>Education</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <article class="education-card">
+              <div class="edu-icon"><i class="bi bi-mortarboard"></i></div>
+              <div class="edu-year">2019 — 2022</div>
+              <h3>B.Tech - Computer Engineering</h3>
+              <p class="timeline-org">Sardar Patel Institute of Technology, Mumbai, India</p>
+              <p class="muted-copy mb-0">CGPA: 8.13/10</p>
+            </article>
+          </div>
+          <div class="col-md-6">
+            <article class="education-card">
+              <div class="edu-icon"><i class="bi bi-award"></i></div>
+              <div class="edu-year">2016 - 2019</div>
+              <h3>Diploma in Computer Engineering</h3>
+              <p class="timeline-org">Government Polytechnic Mumbai</p>
+              <p class="muted-copy mb-0">Percentage: 94.43%</p>
+            </article>
+          </div>
+        </div>
+
+        <br>
+        <div class="row g-4">
+          <div class="col-md-12">
+            <article class="education-card">
+              <div class="edu-icon"><i class="bi bi-mortarboard"></i></div>
+              <div class="edu-year">2015 — 2016</div>
+              <h3>SSC</h3>
+              <p class="timeline-org">Dosibai Jeejeebhoy Highschool, Mumbai, India</p>
+              <p class="muted-copy mb-0">Percentage: 91.40%</p>
+            </article>
+          </div>
+          <!-- <div class="col-md-6">
+            <article class="education-card">
+              <div class="edu-icon"><i class="bi bi-award"></i></div>
+              <div class="edu-year">2016 - 2019</div>
+              <h3>Diploma in Computer Engineering</h3>
+              <p class="timeline-org">Government Polytechnic Mumbai</p>
+              <p class="muted-copy mb-0">Percentage: 94.43%</p>
+            </article>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-pad section-tint">
+      <div class="container">
+        <div class="section-heading">
+          <!-- <p class="section-label">04 / TECHNICAL SKILLS</p> -->
+          <h2>Technical Skills</span></h2>
+          <!-- <p class="section-intro">Update this list to reflect your real strengths and current toolkit.</p> -->
+        </div>
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-card-head"><i class="bi bi-braces"></i>
+                <h3>Frontend</h3>
+              </div>
+              <div class="skill-list"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Bootstrap
+                  5</span><span>Responsive UI</span></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-card-head"><i class="bi bi-hdd-stack"></i>
+                <h3>Backend & Data</h3>
+              </div>
+              <div class="skill-list"><span>Java</span><span>Spring
+                  Boot</span><span>Spring</span><span>Hibernate</span><span>JDBC</span><span>JSP</span><span>SQL
+                </span></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-card-head"><i class="bi bi-tools"></i>
+                <h3>Tools & Workflow</h3>
+              </div>
+              <div class="skill-list"><span>Git</span><span>GitHub</span><span>VS
+                  Code</span><span>Debugging</span><span>Agile</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-pad">
+      <div class="container">
+        <div class="section-heading section-heading-inline">
+          <div>
+            <!-- <p class="section-label">05 / PROJECTS</p> -->
+            <h2>Projects</h2>
+          </div>
+          <!-- <p class="section-intro">A few things I've made, explored, or helped bring to life.</p> -->
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card">
+              <div class="project-image project-image-one">
+                <div class="mock-dashboard">
+                  <div class="mock-sidebar"></div>
+                  <div class="mock-content"><span></span><span></span>
+                    <div class="mock-chart"></div>
+                    <div class="mock-tiles"><i></i><i></i><i></i></div>
+                  </div>
+                </div><span class="project-number">PROJECT / 01</span>
+              </div>
+              <div class="project-body">
+                <div class="project-type">WEB APPLICATION</div>
+                <h3>ShopEase</h3>
+                <p class="muted-copy">An e-commerce website showcasing products across categories such as fashion,
+                  electronics, footwear, and accessories.</p>
+                <div class="tag-row"><span>HTML5</span><span>CSS3</span><span>Bootstrap</span><span>JavaScript</span>
+                </div>
+                <div class="project-links"><a href="https://vishal786379.github.io/ShopEaseOnline/"
+                    class="text-link placeholder-link">Live demo <i class="bi bi-arrow-up-right"></i></a><a
+                    href="https://github.com/Vishal786379/ShopEaseOnline" class="icon-link placeholder-link"
+                    aria-label="Source code"><i class="bi bi-github"></i></a></div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card">
+              <div class="project-image project-image-one">
+                <div class="mock-dashboard">
+                  <div class="mock-sidebar"></div>
+                  <div class="mock-content"><span></span><span></span>
+                    <div class="mock-chart"></div>
+                    <div class="mock-tiles"><i></i><i></i><i></i></div>
+                  </div>
+                </div><span class="project-number">PROJECT / 02</span>
+              </div>
+              <div class="project-body">
+                <div class="project-type">WEB APPLICATION</div>
+                <h3>FinSecure Banking</h3>
+                <p class="muted-copy">A banking website presenting financial services, savings accounts, loans, digital
+                  banking, and customer support.</p>
+                <div class="tag-row"><span>HTML5</span><span>CSS3</span><span>Bootstrap</span><span>JavaScript</span>
+                </div>
+                <div class="project-links"><a href="https://vishal786379.github.io/FinSecureBanking/"
+                    class="text-link placeholder-link">Live demo <i class="bi bi-arrow-up-right"></i></a><a
+                    href="https://github.com/Vishal786379/FinSecureBanking" class="icon-link placeholder-link"
+                    aria-label="Source code"><i class="bi bi-github"></i></a></div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card">
+              <div class="project-image project-image-one">
+                <div class="mock-dashboard">
+                  <div class="mock-sidebar"></div>
+                  <div class="mock-content"><span></span><span></span>
+                    <div class="mock-chart"></div>
+                    <div class="mock-tiles"><i></i><i></i><i></i></div>
+                  </div>
+                </div><span class="project-number">PROJECT / 03</span>
+              </div>
+              <div class="project-body">
+                <div class="project-type">WEB APPLICATION</div>
+                <h3>FreshBite Foods</h3>
+                <p class="muted-copy">A food and beverage website presenting food products, menu items, special offers,
+                  and online ordering options.</p>
+                <div class="tag-row"><span>HTML5</span><span>CSS3</span><span>Bootstrap</span><span>JavaScript</span>
+                </div>
+                <div class="project-links"><a href="https://vishal786379.github.io/FreshBiteFoods/"
+                    class="text-link placeholder-link">Live demo <i class="bi bi-arrow-up-right"></i></a><a
+                    href="https://github.com/Vishal786379/FreshBiteFoods" class="icon-link placeholder-link"
+                    aria-label="Source code"><i class="bi bi-github"></i></a></div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <br>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card">
+              <div class="project-image project-image-one">
+                <div class="mock-dashboard">
+                  <div class="mock-sidebar"></div>
+                  <div class="mock-content"><span></span><span></span>
+                    <div class="mock-chart"></div>
+                    <div class="mock-tiles"><i></i><i></i><i></i></div>
+                  </div>
+                </div><span class="project-number">PROJECT / 04</span>
+              </div>
+              <div class="project-body">
+                <div class="project-type">WEB APPLICATION</div>
+                <h3>PrimeNest Properties</h3>
+                <p class="muted-copy">A real estate website displaying residential and commercial properties, property
+                  details, and buying or renting options.</p>
+                <div class="tag-row"><span>HTML5</span><span>CSS3</span><span>Bootstrap</span><span>JavaScript</span>
+                </div>
+                <div class="project-links"><a href="https://vishal786379.github.io/PrimeNestProperties/"
+                    class="text-link placeholder-link">Live demo <i class="bi bi-arrow-up-right"></i></a><a
+                    href="https://github.com/Vishal786379/PrimeNestProperties" class="icon-link placeholder-link"
+                    aria-label="Source code"><i class="bi bi-github"></i></a></div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card">
+              <div class="project-image project-image-one">
+                <div class="mock-dashboard">
+                  <div class="mock-sidebar"></div>
+                  <div class="mock-content"><span></span><span></span>
+                    <div class="mock-chart"></div>
+                    <div class="mock-tiles"><i></i><i></i><i></i></div>
+                  </div>
+                </div><span class="project-number">PROJECT / 05</span>
+              </div>
+              <div class="project-body">
+                <div class="project-type">WEB APPLICATION</div>
+                <h3>TechNova Solutions</h3>
+                <p class="muted-copy">A modern IT company website showcasing software development services, technology
+                  solutions, projects, and company information.</p>
+                <div class="tag-row"><span>HTML5</span><span>CSS3</span><span>Bootstrap</span><span>JavaScript</span>
+                </div>
+                <div class="project-links"><a href="https://vishal786379.github.io/TechNovaSolutions/"
+                    class="text-link placeholder-link">Live demo <i class="bi bi-arrow-up-right"></i></a><a
+                    href="https://github.com/Vishal786379/TechNovaSolutions" class="icon-link placeholder-link"
+                    aria-label="Source code"><i class="bi bi-github"></i></a></div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card">
+              <div class="project-image project-image-one">
+                <div class="mock-dashboard">
+                  <div class="mock-sidebar"></div>
+                  <div class="mock-content"><span></span><span></span>
+                    <div class="mock-chart"></div>
+                    <div class="mock-tiles"><i></i><i></i><i></i></div>
+                  </div>
+                </div><span class="project-number">PROJECT / 06</span>
+              </div>
+              <div class="project-body">
+                <div class="project-type">WEB APPLICATION</div>
+                <h3>Pro Manufacture Industries</h3>
+                <p class="muted-copy">An industrial website showcasing manufacturing capabilities, machinery, production
+                  processes, and engineering solutions.</p>
+                <div class="tag-row"><span>HTML5</span><span>CSS3</span><span>Bootstrap</span><span>JavaScript</span>
+                </div>
+                <div class="project-links"><a href="https://vishal786379.github.io/ProManufactureIndustries/"
+                    class="text-link placeholder-link">Live demo <i class="bi bi-arrow-up-right"></i></a><a
+                    href="https://github.com/Vishal786379/ProManufactureIndustries" class="icon-link placeholder-link"
+                    aria-label="Source code"><i class="bi bi-github"></i></a></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section-pad section-tint">
+      <div class="container">
+        <div class="section-heading">
+          <!-- <p class="section-label">06 / RESEARCH</p> -->
+          <h2>Research & Publications</span></h2>
+          <!-- <p class="section-intro">Showcase published papers, conference work, and ongoing research.</p> -->
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <article class="research-card">
+              <div class="research-icon"><i class="bi bi-file-earmark-text"></i></div>
+              <div class="research-content">
+                <div class="project-type">IEEE</div>
+                <h3>Virtual Smart Canteen System</h3>
+                <p class="muted-copy">The proposed work targets to solve the issues faced by students in a university
+                  canteen by integrating a mobile application for online food ordering, together with an application for
+                  vacant seat detection for hassle-free seating space finding, food recommendation and sentiment
+                  analysis features making food ordering process in a university canteen more convenient and efficient.
+                </p>
+                <p class="research-meta">IEEE International Conference on Signal Processing, Informatics, Communication
+                  and Energy Systems (SPICES)</p>
+                <a href="https://ieeexplore.ieee.org/document/9774187" class="text-link placeholder-link">Read paper <i
+                    class="bi bi-arrow-up-right"></i></a>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-6">
+            <article class="research-card">
+              <div class="research-icon"><i class="bi bi-journal-richtext"></i></div>
+              <div class="research-content">
+                <div class="project-type">IJMER</div>
+                <h3>A Comparative study On Gesture control voice command Over
+                  Android Device</h3>
+                <p class="muted-copy">Speech” and “gestures” are the expressions, which are mostly used in communication
+                  between human beings. In human communication, the use of speech and gestures is completely
+                  coordinated. Gesture Vocalize is a large-scale multi-microcontroller-based system being designed to
+                  facilitate the communication among the dumb, deaf and blind communities and their communication with
+                  the normal people. This system can dynamically reconfigure to work as a “smart device”.</p>
+                <p class="research-meta">International Journal of Modern Engineering & Research</p><a
+                  href="https://www.ijmer.com/papers/Vol9_issue1/E0901013337.pdf"
+                  class="text-link placeholder-link">View publication <i class="bi bi-arrow-up-right"></i></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="section-pad">
+      <div class="container">
+        <div class="section-heading section-heading-inline">
+          <div>
+            <!-- <p class="section-label">07 / TECHNICAL BLOG</p> -->
+            <h2>Technical Blog</h2>
+          </div>
+          <!-- <p class="section-intro">Ideas, tutorials, and lessons worth sharing.</p> -->
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <article class="blog-card">
+              <div class="blog-art blog-art-one"><span>01</span><i class="bi bi-layout-wtf"></i></div>
+              <div class="blog-body">
+                <div class="blog-meta">SQL · 5 MIN READ</div>
+                <h3>DDL Commands in SQL : Practical Example</h3>
+                <p class="muted-copy">DDL stands for “Data Definition Language”, which is used to define and manage the
+                  structure of database objects such as database, tables, views and indexes.</p><a
+                  href="https://medium.com/@vishalcodebaselearning/ddl-commands-in-sql-practical-example-8538d74871a7"
+                  class="text-link placeholder-link">Read article <i class="bi bi-arrow-up-right"></i></a>
+              </div>
+            </article>
+          </div>
+         <div class="col-md-6 col-lg-4">
+            <article class="blog-card">
+              <div class="blog-art blog-art-one"><span>01</span><i class="bi bi-layout-wtf"></i></div>
+              <div class="blog-body">
+                <div class="blog-meta">SQL · 5 MIN READ</div>
+                <h3>DDL Commands in SQL : Practical Example</h3>
+                <p class="muted-copy">DDL stands for “Data Definition Language”, which is used to define and manage the
+                  structure of database objects such as database, tables, views and indexes.</p><a
+                  href="https://medium.com/@vishalcodebaselearning/ddl-commands-in-sql-practical-example-8538d74871a7"
+                  class="text-link placeholder-link">Read article <i class="bi bi-arrow-up-right"></i></a>
+              </div>
+            </article>
+          </div><div class="col-md-6 col-lg-4">
+            <article class="blog-card">
+              <div class="blog-art blog-art-one"><span>01</span><i class="bi bi-layout-wtf"></i></div>
+              <div class="blog-body">
+                <div class="blog-meta">SQL · 5 MIN READ</div>
+                <h3>DDL Commands in SQL : Practical Example</h3>
+                <p class="muted-copy">DDL stands for “Data Definition Language”, which is used to define and manage the
+                  structure of database objects such as database, tables, views and indexes.</p><a
+                  href="https://medium.com/@vishalcodebaselearning/ddl-commands-in-sql-practical-example-8538d74871a7"
+                  class="text-link placeholder-link">Read article <i class="bi bi-arrow-up-right"></i></a>
+              </div>
+            </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-pad contact-section">
+      <div class="container">
+        <div class="contact-panel">
+          <div class="contact-glow"></div>
+          <div class="row gy-5 align-items-center position-relative">
+            <div class="col-lg-6">
+              <p class="section-label">08 / CONTACT</p>
+              <h2>Have a good idea?<br><span class="accent">Let's build it.</span></h2>
+              <p class="contact-copy">Have a role, project, or interesting problem in mind? Send a message. I'm always
+                happy to connect.</p>
+              <div class="contact-detail"><i class="bi bi-envelope"></i><a
+                  href="mailto:hello@example.com">vishalsalvi3355@gmail.com</a></div>
+              <div class="social-links"><a href="https://github.com/Vishal786379" class="placeholder-link" aria-label="GitHub"><i
+                    class="bi bi-github"></i></a><a href="https://www.linkedin.com/in/vishalsalvi35/" class="placeholder-link" aria-label="LinkedIn"><i
+                    class="bi bi-linkedin"></i></a><a href="#" class="placeholder-link" aria-label="Website"><i
+                    class="bi bi-globe2"></i></a></div>
+            </div>
+            <div class="col-lg-6">
+              <form id="contactForm" class="contact-form">
+                <div class="row g-3">
+                  <div class="col-md-6"><label for="contactName" class="form-label">Your name</label><input
+                      id="contactName" name="name" class="form-control" placeholder="Vishal Salvi" required></div>
+                  <div class="col-md-6"><label for="contactEmail" class="form-label">Email address</label><input
+                      id="contactEmail" name="email" type="email" class="form-control" placeholder="vishal@example.com"
+                      required></div>
+                  <div class="col-12"><label for="contactSubject" class="form-label">Subject</label><input
+                      id="contactSubject" name="subject" class="form-control" placeholder="Project collaboration"></div>
+                  <div class="col-12"><label for="contactMessage" class="form-label">Message</label><textarea
+                      id="contactMessage" name="message" rows="4" class="form-control"
+                      placeholder="Tell me a little about it..." required></textarea></div>
+                  <div class="col-12"><button class="btn btn-accent btn-lg w-100" type="submit">Prepare email <i
+                        class="bi bi-send ms-1"></i></button>
+                    <p class="form-note mb-0">This static form opens your email app; it does not send or store messages.
+                    </p>
+                    <div id="formFeedback" class="form-feedback" role="status" aria-live="polite"></div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2"><a
+        class="navbar-brand" href="#home"><span class="brand-mark">&lt;/&gt;</span> Vishal Salvi</a>
+      <p>Designed & built with HTML5, CSS3, JavaScript, and Bootstrap.</p><a class="back-top" href="#home">Back to top
+        ↑</a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
